@@ -4,7 +4,7 @@ def oxford_comma(arr)
   
   arr.each { |el| 
     if arr.size == 1 {str << el}
-    elsif arr.size ==2{arr.to_s("and")}
+    elsif arr.size ==2{arr.to_s}
   end
   }
     
