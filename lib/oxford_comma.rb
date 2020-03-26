@@ -1,7 +1,12 @@
 require 'pry'
-def oxford_comma(array)
+def oxford_comma(arr)
   str = ""
-  array.each {|el| str << el}
+  
+  arr.each { |el| 
+    if arr.size == 1 {str << el}
+    elsif arr.size ==2{arr.to_s("and")
+  end
+    
   str
 end
 binding.pry
