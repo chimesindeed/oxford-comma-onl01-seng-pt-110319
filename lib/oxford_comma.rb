@@ -6,6 +6,7 @@ def oxford_comma(arr)
     if arr.size == 1 {str << el}
     elsif arr.size ==2{arr.to_s("and")}
   end
+  }
     
   str
 end
